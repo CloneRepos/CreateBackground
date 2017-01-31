@@ -2,6 +2,11 @@
 Feature: Name
 For check update from git 
 
+Background: 
+
+Given first
+When second
+
 @SC_49622 @Critical
 Scenario: First scenario
 Given jira-linked story
