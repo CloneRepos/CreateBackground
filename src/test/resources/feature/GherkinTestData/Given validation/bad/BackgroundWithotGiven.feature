@@ -2,6 +2,11 @@
 Feature: Given in all scenarios
 Check Background without given keyword
 
+Background: 
+
+Given first
+When second
+
 @SC_49631
 Scenario: 2
 When in this story background hasn't given keyword
