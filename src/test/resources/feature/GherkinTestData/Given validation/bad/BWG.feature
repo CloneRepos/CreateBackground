@@ -2,6 +2,11 @@
 Feature: only one scenario
 Check Background
 
+Background: 
+
+Given first
+When second
+
 @SC_49635 @Critical @Test_1
 Scenario: Check scenario
 Given asd
